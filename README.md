@@ -1,1 +1,1 @@
-# FFmpeg enabled ruby image for docker
+# FFmpeg enabled Ruby for Docker
