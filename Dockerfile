@@ -7,3 +7,4 @@ RUN apt-get update && \
     apt-get install ruby2.6 && \
     gem install bundler && \
     rm -rf /var/lib/apt/lists/*
+    
