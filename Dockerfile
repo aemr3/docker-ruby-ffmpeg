@@ -8,4 +8,4 @@ RUN apt-get update && \
     gem install bundler && \
     rm -rf /var/lib/apt/lists/*
 
-CMD [ "irb" ]
+ENTRYPOINT [ "irb" ]
