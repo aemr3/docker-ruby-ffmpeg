@@ -7,3 +7,5 @@ RUN apt-get update && \
     apt-get install -y ruby2.6 ruby2.6-dev && \
     gem install bundler && \
     rm -rf /var/lib/apt/lists/*
+
+CMD [ "irb" ]
